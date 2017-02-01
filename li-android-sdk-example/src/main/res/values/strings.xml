@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lithium Community Example App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Lithium Community Example App</string>
+    <string name="support_activity_title">Help &amp; Support</string>
+    <string name="support_activity_description">Welcome to Lithium Community Example App.</string>
+
+    <string name="clientId">PLACE YOUR COMMUNITY CLIENT ID HERE</string>
+    <string name="clientSecret">PLACE YOUR COMMUNITY CLIENT SECRET HERE</string>
+    <string name="communityURL">PLACE YOUR COMMUNITY URL HERE</string>
+</resources>

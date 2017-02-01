@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "214595908161",
+    "firebase_url": "https://lithosphere-77e9a.firebaseio.com",
+    "project_id": "lithosphere-77e9a",
+    "storage_bucket": "lithosphere-77e9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214595908161:android:17f814c6cb7d5533",
+        "android_client_info": {
+          "package_name": "lithium.community.lithosphere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214595908161-79ql55n3ojahsic15arrq6cq8j0hfbki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lithium.community.lithosphere",
+            "certificate_hash": "C88C81AE5808DA1D66E55740F4AE1B7B26DB8FE1"
+          }
+        },
+        {
+          "client_id": "214595908161-a0jb8455fuomh2rf0pvbramstrb3f9ig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lithium.community.lithosphere",
+            "certificate_hash": "FC15A35A058BBEFBA9A414D097BA963C1914A443"
+          }
+        },
+        {
+          "client_id": "214595908161-cif817mktrri2s3umjvupf32s6snv84g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ev8xluY7kjRzwwg1RtA0RaKPokGgpgQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214595908161-cif817mktrri2s3umjvupf32s6snv84g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
