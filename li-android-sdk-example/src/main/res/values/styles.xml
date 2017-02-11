@@ -37,6 +37,7 @@
         <item name="li_theme_articleListResolvedTxtColor">@color/li_theme_articleListResolvedTxtColor</item>
         <item name="li_theme_articleListDetailsTxtSize">@dimen/li_theme_articleListDetailsTxtSize</item>
         <item name="li_theme_background">@android:color/secondary_text_dark</item>
+        <item name="li_theme_backbutton">@drawable/ic_arrow_back_black</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
