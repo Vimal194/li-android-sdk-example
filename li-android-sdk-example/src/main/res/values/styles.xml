@@ -38,6 +38,8 @@
         <item name="li_theme_articleListDetailsTxtSize">@dimen/li_theme_articleListDetailsTxtSize</item>
         <item name="li_theme_background">@android:color/secondary_text_dark</item>
         <item name="li_theme_backbutton">@drawable/ic_arrow_back_black</item>
+        <item name="li_theme_search_text_hint_color">@color/text_hint_color</item>
+        <item name="li_theme_search_text_color">@android:color/white</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

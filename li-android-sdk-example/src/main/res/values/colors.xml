@@ -8,4 +8,5 @@
     <color name="colorPrimaryDark_blue">#296CDB</color>
     <color name="colorAccent_blue">#5C9FFF</color>
     <color name="dividerColor">#b7afaf</color>
+    <color name="text_hint_color">#9E9E9E</color>
 </resources>
