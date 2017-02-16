@@ -9,27 +9,23 @@ Getting started with the reference application includes:
 * Cloning the Community Android SDK repositories
 * Build the AARs for the projects
 * Create credentials for your Community integration and add them to the reference applicaiton
-* Run the reference applicaiton
+* Run the reference application
 
 **Note:** Be sure to clone and build the SDK projects in the order listed.
 
-1. Clone [li-android-sdk-core](https://github.com/lithiumtech/li-android-sdk-core).
-1. In Android Studio, click **Run** to publish to local Maven.
-1. Clone [li-android-sdk-ui](https://github.com/lithiumtech/li-android-sdk-ui).
-1. In Android Studio, click **Run** to publish to local Maven.
 1. Clone [li-android-sdk-example](https://github.com/lithiumtech/li-android-sdk-example).
 1. Sign in to your Community and go to **Community Admin > System > API Apps**.
 1. Create an app key and secret for your Community integration app following the steps in the [Get Authorization Credentials](https://github.com/lithiumtech/li-android-sdk-core/wiki/Getting-Started-with-the-Community-Android-SDK#get-authorization-credentials) section of Getting Started with the Community Android SDK.
 1. In Android Studio, go to the li-android-sdk-exampe project.
 1. Add your credentials and the Community URL to `strings.xml`.
-    
+
     ```xml
     <string name="clientId">API App Key Goes Here</string>
     <string name="clientSecret">App Secret Goes Here</string>
     <string name="communityURL">URL to your Community Goes Here</string>
     ```
-    
-1. Click **Run**.
+1. If using push notifications, follow the instructions in [Connecting Firebase Cloud Messaging](https://github.com/lithiumtech/li-android-sdk-core/wiki/Connecting-Firebase-Cloud-Messaging) to add your push notification server key to Community Admin.    
+1. In Android Studio, click **Run**.
 
 ## License
 Except as otherwise noted, the Community Android SDK and the Lithium Community Reference app are licensed under the Apache 2.0 License.
