@@ -8,7 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <!--Attributes for Lithium CoreSDK-->
-        <!--<item name="li_theme_loginTabCloseIcon">@android:drawable/ic_delete</item>-->
         <item name="li_theme_popupOverlay">@style/AppTheme.PopupOverlay</item>
         <item name="li_theme_appBarOverlay">@style/AppTheme.AppBarOverlay</item>
 
