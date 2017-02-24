@@ -1,27 +1,18 @@
-package lithium.community.lithosphere;
+package lithium.community.sdk.example;
 
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
-import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 import java.util.Map;
 
-import lithium.community.android.sdk.LiSDKManager;
-import lithium.community.android.sdk.auth.LiAppCredentials;
 import lithium.community.android.sdk.notification.LiNotificationPayload;
 import lithium.community.android.sdk.ui.components.activities.LiConversationActivity;
 import lithium.community.android.sdk.ui.components.utils.LiSDKConstants;
