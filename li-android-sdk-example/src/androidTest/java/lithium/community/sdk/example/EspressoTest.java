@@ -1,11 +1,10 @@
-package lithium.community.lithosphere;
+package lithium.community.sdk.example;
 
 /**
  * Created by vikas.kumar on 12/19/16.
  */
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
-import android.widget.SlidingDrawer;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -13,13 +12,11 @@ import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static java.lang.Thread.*;
 import static org.hamcrest.CoreMatchers.allOf;
 
-import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
