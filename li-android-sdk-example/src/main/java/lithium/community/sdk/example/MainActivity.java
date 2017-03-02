@@ -1,4 +1,4 @@
-package lithium.community.lithosphere;
+package lithium.community.sdk.example;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;

@@ -1,7 +1,6 @@
-package lithium.community.lithosphere;
+package lithium.community.sdk.example;
 
 import android.app.Application;
-import android.net.Uri;
 import android.util.Log;
 
 import java.net.MalformedURLException;

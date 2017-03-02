@@ -1,4 +1,4 @@
-package lithium.community.lithosphere;
+package lithium.community.sdk.example;
 
 import org.junit.Test;
 
