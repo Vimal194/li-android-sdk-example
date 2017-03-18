@@ -6,8 +6,8 @@ import android.util.Log;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 
-import lithium.community.android.sdk.LiSDKManager;
 import lithium.community.android.sdk.auth.LiAppCredentials;
+import lithium.community.android.sdk.manager.LiSDKManager;
 
 public class MainApplication extends Application {
 
@@ -21,7 +21,7 @@ public class MainApplication extends Application {
               .setClientKey(getString(R.string.clientId))
               .setClientSecret(getString(R.string.clientSecret))
               .setCommunityUri(getString(R.string.communityURL))
-              .setDeferredLogin(true).build();
+              .setTenantId(getString(R.string.communityTenantId)).build();
       LiSDKManager.init(this, liAppCredentials);
     } catch (MalformedURLException | URISyntaxException | IllegalArgumentException e) {
       Log.e(LOG_TAG, "Couldn't initialize Lithium SDK");

@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import lithium.community.android.sdk.client.manager.LiClientManager;
+import lithium.community.android.sdk.manager.LiSDKManager;
 import lithium.community.android.sdk.ui.components.activities.LiCreateMessageActivity;
 import lithium.community.android.sdk.ui.components.activities.LiSupportHomeActivity;
 import lithium.community.android.sdk.ui.components.utils.LiSDKConstants;
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         else if (id == R.id.li_action_logout) {
-            LiClientManager.getInstance().getLiAuthManager().logout(this);
+            LiSDKManager.getInstance().logout(this);
         }
 
         return super.onOptionsItemSelected(item);
