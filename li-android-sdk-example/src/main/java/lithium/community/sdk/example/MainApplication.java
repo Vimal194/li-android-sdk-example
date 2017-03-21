@@ -20,8 +20,7 @@ public class MainApplication extends Application {
       LiAppCredentials liAppCredentials = new LiAppCredentials.Builder()
               .setClientKey(getString(R.string.clientId))
               .setClientSecret(getString(R.string.clientSecret))
-              .setCommunityUri(getString(R.string.communityURL))
-              .setDeferredLogin(true).build();
+              .setCommunityUri(getString(R.string.communityURL)).build();
       LiSDKManager.init(this, liAppCredentials);
     } catch (MalformedURLException | URISyntaxException | IllegalArgumentException e) {
       Log.e(LOG_TAG, "Couldn't initialize Lithium SDK");
