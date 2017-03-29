@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import java.net.URISyntaxException;
+
 import lithium.community.android.sdk.manager.LiSDKManager;
 import lithium.community.android.sdk.ui.components.activities.LiCreateMessageActivity;
 import lithium.community.android.sdk.ui.components.activities.LiSupportHomeActivity;
@@ -62,6 +64,13 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (id == R.id.li_action_logout) {
             LiSDKManager.getInstance().logout(this);
+        }
+        else if (id == R.id.li_action_login) {
+            try {
+                LiSDKManager.getInstance().initLoginFlow(this);
+            } catch (URISyntaxException e) {
+                e.printStackTrace();
+            }
         }
 
         return super.onOptionsItemSelected(item);
