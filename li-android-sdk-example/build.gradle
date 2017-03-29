@@ -33,8 +33,8 @@ configurations.all {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile 'lithium.community.android.sdk:li-android-sdk-core:1.0.2'
-    compile 'lithium.community.android.sdk:li-android-sdk-ui:1.0.2'
+    compile 'lithium.community.android.sdk:li-android-sdk-core:1.1.0'
+    compile 'lithium.community.android.sdk:li-android-sdk-ui:1.1.0'
     compile 'com.google.firebase:firebase-messaging:10.0.1'
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'

@@ -43,7 +43,7 @@ public class LiFirebaseInstanceIdService extends FirebaseInstanceIdService {
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         try {
 
-            new LiNotificationProviderImpl().onIdRefresh(refreshedToken, LiPushNotificationProvider.FIREBASE);
+            new LiNotificationProviderImpl().onIdRefresh(refreshedToken, LiPushNotificationProvider.FIREBASE, this);
         } catch (LiRestResponseException e) {
             Log.e("LiSDK", "Could not post token (device id) to Notification service.");
         }
