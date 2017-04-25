@@ -7,7 +7,6 @@ import com.google.firebase.iid.FirebaseInstanceIdService;
 
 import lithium.community.android.sdk.exception.LiRestResponseException;
 import lithium.community.android.sdk.notification.LiNotificationProviderImpl;
-import lithium.community.android.sdk.notification.LiPushNotificationProvider;
 
 /**
  * Created by sumit.pannalall on 12/29/16.
@@ -43,7 +42,7 @@ public class LiFirebaseInstanceIdService extends FirebaseInstanceIdService {
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         try {
 
-            new LiNotificationProviderImpl().onIdRefresh(refreshedToken, LiPushNotificationProvider.FIREBASE, this);
+            new LiNotificationProviderImpl().onIdRefresh(refreshedToken, this);
         } catch (LiRestResponseException e) {
             Log.e("LiSDK", "Could not post token (device id) to Notification service.");
         }
