@@ -10,4 +10,9 @@
         android:orderInCategory="100"
         android:title="@string/li_logout"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/li_action_login"
+        android:orderInCategory="99"
+        android:title="@string/li_login"
+        app:showAsAction="never" />
 </menu>
