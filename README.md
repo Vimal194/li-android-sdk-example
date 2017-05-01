@@ -4,25 +4,19 @@ This reference app provides an example of how to use the Lithium Community Andro
 This README assumes that you have Android Studio installed and a working Community instance.
 
 ## Getting Started
-Getting started with the reference application includes:
-
-* Cloning the Community Android SDK repositories
-* Build the AARs for the projects
-* Create credentials for your Community integration and add them to the reference applicaiton
-* Run the reference application
-
-**Note:** Be sure to clone and build the SDK projects in the order listed.
 
 1. Clone [li-android-sdk-example](https://github.com/lithiumtech/li-android-sdk-example).
 1. Sign in to your Community and go to **Community Admin > System > API Apps**.
-1. Create an app key and secret for your Community integration app following the steps in the [Get Authorization Credentials](https://github.com/lithiumtech/li-android-sdk-core/wiki/Getting-Started-with-the-Community-Android-SDK#get-authorization-credentials) section of Getting Started with the Community Android SDK.
+1. Create an app key and secret for your Community integration app following the steps in the [Get Authorization Credentials](https://github.com/lithiumtech/li-android-sdk-core/wiki/Getting-Started-with-the-Community-Android-SDK#get-authentication-credentials) section of Getting Started with the Community Android SDK.
 1. In Android Studio, go to the li-android-sdk-exampe project.
 1. Add your credentials and the Community URL to `strings.xml`.
 
     ```xml
-    <string name="clientId">API App Key Goes Here</string>
-    <string name="clientSecret">App Secret Goes Here</string>
-    <string name="communityURL">URL to your Community Goes Here</string>
+    <string name="clientId">PLACE YOUR COMMUNITY CLIENT ID HERE</string>
+    <string name="clientSecret">PLACE YOUR COMMUNITY CLIENT SECRET HERE</string>
+    <string name="communityURL">PLACE YOUR COMMUNITY URL HERE</string>
+    <string name="communityTenantId">PLACE COMMUNITY TENANT ID HERE</string>
+    <string name="apiProxyHostname">PLACE API PROXY HOSTNAME HERE</string>
     ```
 1. If using push notifications, follow the instructions in [Connecting Firebase Cloud Messaging](https://github.com/lithiumtech/li-android-sdk-core/wiki/Connecting-Firebase-Cloud-Messaging) to add your push notification server key to Community Admin.    
 1. In Android Studio, click **Run**.
