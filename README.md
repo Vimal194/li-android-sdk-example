@@ -27,4 +27,4 @@ Except as otherwise noted, the Community Android SDK and the Lithium Community R
 Copyright 2017 Lithium Technologies
 
 ## Getting help
-Visit the [Current Betas Forum](https://community.lithium.com/t5/Current-betas/bd-p/BetaCurrent) on the Lithium Community to learn about our beta program, ask questions, and talk with other members of the Lithium Developer community.
+Visit the [Developers Discussion forum](https://community.lithium.com/t5/Developers-Discussion/bd-p/studio) on the Lithium Community to ask questions and talk with other members of the Lithium Developer community.
