@@ -39,6 +39,7 @@
         <item name="li_theme_backbutton">@drawable/ic_arrow_back_black</item>
         <item name="li_theme_search_text_hint_color">@color/text_hint_color</item>
         <item name="li_theme_search_text_color">@android:color/white</item>
+        <item name="li_theme_searchIcon">@android:drawable/ic_menu_search</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
