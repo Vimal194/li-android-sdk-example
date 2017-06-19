@@ -10,4 +10,5 @@
     <string name="communityURL">PLACE YOUR COMMUNITY URL HERE</string>
     <string name="communityTenantId">PLACE COMMUNITY TENANT ID HERE</string>
     <string name="apiProxyHostname">PLACE API PROXY HOSTNAME HERE</string>
+    <string name="clientAppName">PLACE CLIENT APP NAME HERE</string>
 </resources>

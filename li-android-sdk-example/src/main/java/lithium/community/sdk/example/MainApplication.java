@@ -22,7 +22,8 @@ public class MainApplication extends Application {
               .setClientSecret(getString(R.string.clientSecret))
               .setCommunityUri(getString(R.string.communityURL))
               .setTenantId(getString(R.string.communityTenantId))
-              .setApiProxyHost(getString(R.string.apiProxyHostname)).build();
+              .setApiProxyHost(getString(R.string.apiProxyHostname))
+              .setClientAppName(getString(R.string.clientAppName)).build();
       LiSDKManager.init(this, liAppCredentials);
     } catch (MalformedURLException | URISyntaxException | IllegalArgumentException e) {
       Log.e(LOG_TAG, "Couldn't initialize Lithium SDK");
